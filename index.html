@@ -14,10 +14,15 @@
             loading-screen="enabled: false;"
             arjs="sourceType: webcam; debugUIEnabled: false;"
         >
+            <!-- 立方体、球体、円柱表示 -->
             <!--<a-box position="5 0 -7" rotation="0 45 0" color="#4CC3D9"></a-box>
             <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
             <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> -->
-            <a-gltf-model src="assets/gate.glb" scale="0.4 0.4 0.4" position="60 -300 -450" rotation="0 180 0"></a-gltf-model>
+            
+            <!-- Gate表示 -->
+            <a-gltf-model src="assets/gate.glb" scale="0.3 0.3 0.3" position="60 -300 -600" rotation="0 180 0"></a-gltf-model>
+            
+            <!-- GPSを利用したロケーションベース方式。足元にオブジェクトが表示された -->
             <!-- <a-camera gps-camera rotation-reader></a-camera> -->
             <!-- <a-image
                     src="assets/asset.png"
