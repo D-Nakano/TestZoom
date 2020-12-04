@@ -34,11 +34,5 @@
             <a-camera gps-camera rotation-reader></a-camera>
             -->
         </a-scene>
-        <script>
-            const sceneEl = document.querySelector('a-scene');
-            sceneEl.addEventListener('loaded',() => {
-                sceneEl.camera = new THREE.PerspectiveCamera();
-            });
-        </script>
     </body>
 </html>
